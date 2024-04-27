@@ -1,0 +1,141 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+header{
+    background-color: black;
+}
+
+nav{
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.menu{
+    list-style: none;
+    display: flex;
+    background-color: blue;
+    border-radius: 50px;
+    justify-content: center;
+
+}
+
+.menu-item{
+    padding: 10px 20px;
+    display: flex;
+    border: 3px dashed hotpink;
+}
+
+.menu-item:hover{
+    background-color: white;
+    display: flex;
+    color: blueviolet;
+    border-radius: 10px;
+}
+
+.menu-item:hover>a{
+    color: red;
+}
+
+.menu-link{
+    text-decoration: none;
+    font-size: 40px;
+    border: 1px dashed rgb(0, 255, 132);
+}
+
+.hero{
+    background-image: url('./hero-bg.jpg');
+    background-size: cover;
+    background-position: center;
+}
+
+.container{
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.hero-content{
+    height: 700px;
+    padding: 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 700px;
+    gap: 30px;
+    color: white;
+    font-style: 3rem;
+    text-align: center;
+    background-image: linear-gradient(rgba(0,0,0,0.5) rgba(0,0,0,0.5));
+}
+
+.main-content{
+    display: flex;
+}
+
+main{
+    flex-basis: 900px;
+    background-color: blue;
+    padding: 15px;
+
+}
+
+aside{
+    flex-basis: 300px;
+    background-color: aliceblue;
+    flex-shrink: 0;
+    padding: 15px;
+}
+
+article{
+    text-align: center;
+    margin-top: 50px;
+}
+
+.article-title{
+    font-size: 36px;
+    margin-bottom: 15px;
+}
+
+.article-text{
+    font-size: 1.125rem;
+    margin-top: 15px;
+    line-height: 150%;
+    text-align: justify;
+}
+
+aside>ul{
+    list-style: none;
+}
+
+aside>ul>li{
+    margin-top: 10px;
+    padding: 5px 0;
+}
+
+aside>ul>li>a{
+    font-size: 1.5rem;
+    text-decoration: none;
+}
+
+aside>h2{
+    font-size: 2rem;
+    margin: 15px 0;
+    text-align: center;
+}
+
+footer{
+    padding: 50px;
+    background-color: darkblue;
+    text-align: center;
+}
+
+footer p{
+    font-size: 1.5rem;
+    text-align: center;
+    color: wheat;
+    justify-content: center;
+}
